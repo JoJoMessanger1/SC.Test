@@ -504,7 +504,7 @@ window.addEventListener('unhandledrejection', function(e){
 // CDN-Skript beim ersten Laden nicht rechtzeitig verfügbar war.
 // ══════════════════════════════════════════════════════════
 const SUPABASE_URL = 'https://bgrvlkegsrckupqrbpun.supabase.co';
-const SUPABASE_ANON_KEY = 'DEIN_ANON_PUBLIC_KEY'; // ← aus Supabase: Settings → API → anon public
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJncnZsa2Vnc3Jja3VwcXJicHVuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE3ODE0NzQsImV4cCI6MjA5NzM1NzQ3NH0.LIZA2UvdzU41HVJc98cLN77QUgN8fTH3SM6SHoJh98c'; // ← aus Supabase: Settings → API → anon public
 
 let sb = null;
 function emergencyShowError(msg){
